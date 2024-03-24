@@ -23,10 +23,10 @@ This page outlines the prerequisites and installation of the open-source help de
 - Download and Deploy osTicket
 - Finalize Setup and Cleanup
 <h2>Installation Steps</h2>
-![image](https://github.com/jawaradurrette/osticket-prereqs/assets/164787817/916f31d6-b222-4d2b-8fea-d823d7d6ead8)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![enable iis](https://github.com/jawaradurrette/osticket-prereqs/assets/164787817/13cfdc85-581a-4e4a-b8af-30864ce1e97b)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
