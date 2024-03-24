@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This page outlines the prerequisites and installation of the open-source help desk ticketing system osTicket on a high level.<br />
+This page outlines the prerequisites and installation of the open-source help desk ticketing system osTicket on as a broad overview.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,26 +25,43 @@ This page outlines the prerequisites and installation of the open-source help de
 <h2>Installation Steps</h2>
 
 <p>
-![enable iis](https://github.com/jawaradurrette/osticket-prereqs/assets/164787817/13cfdc85-581a-4e4a-b8af-30864ce1e97b)
-
+<img src="https://i.imgur.com/ZRuz74t.png" height="80%" width="80%" alt="Enabling IIS"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To run osTicket on IIS (Internet Information Services), you need to enable certain IIS features that support the application's operations. Here's a brief explanation:
+
+CGI: This feature allows IIS to interface with external applications that generate web pages dynamically, which is necessary for PHP processing, a core requirement for osTicket.
+
+Common HTTP Features: These are a set of basic features that support web server functionality, including:
+
+Default Document: Enables IIS to serve a default document (like index.php) when a client requests a directory.
+
+Directory Browsing: Allows users to see the contents of a directory on the web server.
+
+Static Content: Enables the serving of static web pages and files.
+
+IIS Management Console: This is the GUI interface for managing IIS settings and configurations, which is helpful for setting up and managing your osTicket site.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rJl8PJy.png" height="80%" width="80%" alt="PHP Manager"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Setting Up PHP: Registering PHP within IIS to interpret PHP scripts.
+  
+Configuring PHP: Adjusting settings and enable necessary extensions through the PHP Manager.
+
+Restarting IIS: Applying changes by restarting the web server.
+
+Eensuring that IIS can support osTicket's operations.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tWumhDW.png" height="80%" width="80%" alt="OsTicket Post install"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here is the osTicket helpdesk system interface with incoming support tickets listed, indicating that the installation and setup process has been successful and the system is now operational. The tickets displayed are open issues submitted by users, which can now be managed, assigned, and resolved within the osTicket platform. It's a good sign that things are up and running as users are actively engaging with the service.
 </p>
 <br />
