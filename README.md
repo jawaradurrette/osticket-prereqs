@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This page outlines the prerequisites and installation of the open-source help desk ticketing system osTicket on as a broad overview.<br />
+This page outlines the prerequisites and installation of the open-source help desk ticketing system osTicket as a broad overview.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -34,13 +34,13 @@ CGI: This feature allows IIS to interface with external applications that genera
 
 Common HTTP Features: These are a set of basic features that support web server functionality, including:
 
-Default Document: Enables IIS to serve a default document (like index.php) when a client requests a directory.
+Default Document: This enables IIS to serve a default document (like index.php) when a client requests a directory.
 
 Directory Browsing: Allows users to see the contents of a directory on the web server.
 
 Static Content: Enables the serving of static web pages and files.
 
-IIS Management Console: This is the GUI interface for managing IIS settings and configurations, which is helpful for setting up and managing your osTicket site.
+IIS Management Console: This is the GUI interface for managing IIS settings and configurations, which helps set up and manage your osTicket site.
 </p>
 <br />
 
@@ -50,11 +50,11 @@ IIS Management Console: This is the GUI interface for managing IIS settings and 
 <p>
 Setting Up PHP: Registering PHP within IIS to interpret PHP scripts.
   
-Configuring PHP: Adjusting settings and enable necessary extensions through the PHP Manager.
+Configuring PHP: Adjusting settings and enabling necessary extensions through the PHP Manager.
 
 Restarting IIS: Applying changes by restarting the web server.
 
-Eensuring that IIS can support osTicket's operations.
+Ensuring that IIS can support osTicket's operations.
 </p>
 <br />
 
